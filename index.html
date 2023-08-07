@@ -20,7 +20,7 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+      <div class="collapse navbar-collapse ms-auto justify-content-end" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a type="button" href="#home" class="nav-link active btn btn-theme">Home</a>
@@ -38,7 +38,7 @@
             <a type="button" class="btn btn-theme" onclick="toggleDarkMode()">
               <i class="fas fa-moon" id="themeIcon"></i>
             </a>
-          </li>          
+          </li>
         </ul>
       </div>
     </nav>
@@ -57,64 +57,161 @@
           <h4>I'm a Web Developer</h4>
         </div>
         <div class="social-links">
-          <button class="btn btn-theme" href="https://www.facebook.com/istiaqahmed.official/" target="_blank"><i class="fab fa-facebook-f"></i></button>
-          <button class="btn btn-theme" href="https://www.instagram.com/istiaqahmed.official/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <button class="btn btn-theme" href="https://www.linkedin.com/in/istiaqahmedofficial/" target="_blank"><i class="fab fa-linkedin-in"></i></button>
+          <button class="btn btn-theme" href="https://www.facebook.com/istiaqahmed.official/" target="_blank"><i
+              class="fab fa-facebook-f"></i></button>
+          <button class="btn btn-theme" href="https://www.instagram.com/istiaqahmed.official/" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+            <button class="btn btn-theme" href="https://www.linkedin.com/in/istiaqahmedofficial/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></button>
         </div>
         <div class="buttons">
           <button class="btn btn-theme" href="#">Hire Me</button>
           <button class="btn btn-theme" href="#">Download CV</button>
         </div>
-    </div>
+      </div>
     </section>
-  
+
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/about.png" alt="About Me" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor
-              sit amet
-              </p>
+          <div class="col-md-12">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">About Me</h2>
+                <h4>Hello, I'm <strong>Istiaq Ahmed</strong>, a Web Developer based in <strong>Dhaka,
+                    Bangladesh</strong>.</h4>
               </div>
-        </div>
-      </div>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Work Experience</h2>
+                      <ul>
+                        <li>Chief Executive Officer at <a href="https://www.photolabtrading.com"
+                            target="_blank">Photolab Trading</a></li>
+                        <li>Researcher & Content Writer at Tech Junkies</li>
+                        <li>Freelance Executive for Media at <a href="https://nanocaps.no/" target="_blank">NanoCaps</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Education</h2>
+                      <ul>
+                        <li>O Level from <a href="https://manaratcollege.edu.bd/" target="_blank">Manarat Dhaka
+                            International College</a></li>
+                        <li>A Level from <a href="https://manaratcollege.edu.bd/" target="_blank">Manarat Dhaka
+                            International College</a></li>
+                        <li>Bachelor of Science in Computer Science from <a href="https://www.iub.edu.bd/"
+                            target="_blank">Independent University, Bangladesh</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Skills</h2>
+                      <ul>
+                        <li>Communication</li>
+                        <li>Leadership</li>
+                        <li>Problem Solving</li>
+                        <li>Time Management</li>
+                        <li>Teamwork</li>
+                        <li>Marketing</li>
+                        <li>Planning</li>
+                        <li>Networking</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title">Languages</h2>
+                      <ul>
+                        <li>English - Advanced</li>
+                        <li>Bangla - Expert</li>
+                        <li>Hindi - Beginner</li>
+                        <li>Arabic - Beginner</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
     </section>
-  
+
+
+    <style>
+      /* Add custom CSS to make cards uniform in size */
+      .github-card {
+        height: 100%;
+      }
+    </style>
+
     <section id="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/about.png" alt="About Me" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor
-              sit amet
-              </p>
+          <div class="col-md-12">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Portfolio</h2>
+                <h4>Here are some of my projects.</h4>
               </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row" id="repository-container">
+            </div>
+
+          </div>
         </div>
-      </div>
     </section>
-  
+
+
+
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/about.png" alt="About Me" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor
-              sit amet
-              </p>
+          <div class="col-md-12 mb-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Contact</h2>
+                <h4>Feel free to contact me</h4>
               </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <h3>Get In Touch</h3>
+            <div class="contact-links d-flex flex-column mt-4">
+              <a href="tel:01611160290"><i class="fas fa-phone-alt mb-4"></i> 01611160290</a>
+              <a href="mailto:istiaqahmed87@gmail.com"><i class="fas fa-envelope mb-4"></i> istiaqahmed87@gmail.com</a>
+              <a href="https://istiaqahmed.me" target="_blank"><i class="fas fa-globe mb-4"></i> istiaqahmed.me</a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <h3>Social Profiles</h3>
+            <ul class="social-profiles list-unstyled">
+              <li><a href="www.facebook.com/xo2415" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/istiaq-a-7b930a11b/" target="_blank"><i
+                    class="fab fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="https://twitter.com/IstiaqA01586361" target="_blank"><i class="fab fa-twitter"></i>
+                  Twitter</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
@@ -132,6 +229,55 @@
         themeIcon.classList.add('fa-moon');
       }
     }
+  </script>
+  <script>
+    const username = 'isti2415';
+    const apiUrl = `https://api.github.com/users/${username}/repos`;
+
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(repositories => {
+        const container = document.getElementById('repository-container');
+
+        repositories.forEach(repo => {
+          const name = repo.name;
+          const url = repo.html_url;
+
+          const colDiv = document.createElement('div');
+          colDiv.className = 'col-md-3 mt-4';
+
+          const cardDiv = document.createElement('div');
+          cardDiv.className = 'card github-card';
+
+          const cardBodyDiv = document.createElement('div');
+          cardBodyDiv.className = 'card-body';
+
+          const cardTitle = document.createElement('h2');
+          const titleLink = document.createElement('a');
+          titleLink.href = url;
+          titleLink.textContent = name;
+          cardTitle.appendChild(titleLink);
+
+          const logoLink = document.createElement('a');
+          logoLink.href = url;
+          logoLink.className = 'text-decoration-none';
+          const githubLogo = document.createElement('i');
+          githubLogo.className = 'fab fa-github fa-5x github-logo';
+          logoLink.appendChild(githubLogo);
+
+          cardBodyDiv.appendChild(cardTitle);
+          cardBodyDiv.appendChild(logoLink);
+
+          cardDiv.appendChild(cardBodyDiv);
+          colDiv.appendChild(cardDiv);
+
+          container.appendChild(colDiv);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+
   </script>
 
 

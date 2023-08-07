@@ -18,7 +18,7 @@ body{
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 1.7;
-  transition: 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .themeicon {
@@ -58,6 +58,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 10%;
 }
 
 .typewriter h1 {
@@ -86,7 +87,7 @@ body{
 }
 
 .fab {
-    font-size: 48px;
+    font-size: 24px;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
@@ -129,4 +130,35 @@ button {
 .navbar-nav {
     background-color: var(--color);
 }
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: all 0.5s ease-in-out;
+  }
+
+.github-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    margin-bottom: 1rem;
+  }
+
+  .github-logo {
+    align-self: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: teal;
+  }
 
